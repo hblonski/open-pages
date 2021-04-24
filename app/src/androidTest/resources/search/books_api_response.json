@@ -1,0 +1,794 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 379,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "S85NCwAAQBAJ",
+      "etag": "1n9zD1X4LzE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/S85NCwAAQBAJ",
+      "volumeInfo": {
+        "title": "It",
+        "subtitle": "A Novel",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2016-01-05",
+        "description": "They were seven teenagers when they first stumbled upon the horror. Now they were grown-up men and women who had gone out into the big world to gain success and happiness. But none of them could withstand the force that drew them back to Derry, Maine to face the nightmare without an end, and the evil without a name.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781501142970"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1501142976"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1168,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 258,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=S85NCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=S85NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=S85NCwAAQBAJ&printsec=frontcover&dq=stephen+king+it&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=S85NCwAAQBAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/It.html?hl=&id=S85NCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=S85NCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In 1985, six men and one woman are called back together to search for a creature of unspeakable evil that had stalked them as children."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "s_o3BAAAQBAJ",
+      "etag": "ZKe0pJJNIQU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/s_o3BAAAQBAJ",
+      "volumeInfo": {
+        "title": "It: A coisa",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Suma",
+        "publishedDate": "2014-08-04",
+        "description": "O clássico de Stephen King em nova edição. O livro que inspirou os filmes. Durante as férias escolares de 1958, em Derry, pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança e... do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permanece em Derry, dá o sinal. Precisam unir forças novamente. A Coisa volta a atacar e eles devem cumprir a promessa selada com sangue que fizeram quando crianças. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. O tempo é curto, mas somente eles podem vencer a Coisa. Em It: A Coisa, clássico de Stephen King em nova edição, os amigos irão até o fim, mesmo que isso signifique ultrapassar os próprios limites.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788581051529"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8581051529"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 1104,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.25.21.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=s_o3BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=s_o3BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=s_o3BAAAQBAJ&printsec=frontcover&dq=stephen+king+it&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=s_o3BAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=s_o3BAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.9,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 39.9,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=s_o3BAAAQBAJ&rdid=book-s_o3BAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39900000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 39900000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/It_A_coisa-sample-epub.acsm?id=s_o3BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/It_A_coisa-sample-pdf.acsm?id=s_o3BAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=s_o3BAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "O tempo é curto, mas somente eles podem vencer a Coisa. Em It: A Coisa, clássico de Stephen King em nova edição, os amigos irão até o fim, mesmo que isso signifique ultrapassar os próprios limites."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AWSzDwAAQBAJ",
+      "etag": "118H8S3sgSs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AWSzDwAAQBAJ",
+      "volumeInfo": {
+        "title": "If It Bleeds",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2020-04-21",
+        "description": "From #1 New York Times bestselling author, legendary storyteller, and master of short fiction Stephen King comes an extraordinary collection of four new and compelling novellas—Mr. Harrigan’s Phone, The Life of Chuck, Rat, and the title story If It Bleeds—each pulling you into intriguing and frightening places. The novella is a form King has returned to over and over again in the course of his amazing career, and many have been made into iconic films, including “The Body” (Stand By Me) and “Rita Hayworth and Shawshank Redemption” (Shawshank Redemption). Like Four Past Midnight, Different Seasons, and most recently Full Dark, No Stars, If It Bleeds is a uniquely satisfying collection of longer short fiction by an incomparably gifted writer.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781982137991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1982137991"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 448,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 11,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.4.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AWSzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AWSzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=AWSzDwAAQBAJ&printsec=frontcover&dq=stephen+king+it&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=AWSzDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AWSzDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 82.09,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 82.09,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=AWSzDwAAQBAJ&rdid=book-AWSzDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 82090000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 82090000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/If_It_Bleeds-sample-epub.acsm?id=AWSzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AWSzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Harrigan’s Phone, The Life of Chuck, Rat, and the title story If It Bleeds—each pulling you into intriguing and frightening places."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7wloswEACAAJ",
+      "etag": "iSUSgrUGtGI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7wloswEACAAJ",
+      "volumeInfo": {
+        "title": "It. Film Tie-In",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Hodder Paperbacks",
+        "publishedDate": "2017-07-25",
+        "description": "NOW A MAJOR MOTION PICTURE - Stephen King's terrifying classic. 'They float...and when you're down here with me, you'll float, too.' Derry, Maine is just an ordinary town: familiar, well-ordered for the most part, a good place to live. It is a group of children who see - and feel - what makes Derry so horribly different. In the storm drains, in the sewers, IT lurks, taking on the shape of every nightmare, each one's deepest dread. Sometimes is appears as an evil clown named Pennywise and sometimes IT reaches up, seizing, tearing, killing . . . Time passes and the children grow up, move away and forget. Until they are called back, once more to confront IT as IT stirs and coils in the sullen depths of their memories, emerging again to make their past nightmares a terrible present reality.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1473666945"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781473666948"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1184,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7wloswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7wloswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=7wloswEACAAJ&dq=stephen+king+it&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=7wloswEACAAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/It_Film_Tie_In.html?hl=&id=7wloswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7wloswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It began--and ended--in 1958 when seven desperate children searched in the drains beneath Derry for an evil creature, but in 1985, Mike Hanlon, once one of those children, makes six phone calls and disinters an unremembered promise that ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NmndDwAAQBAJ",
+      "etag": "YSxbWMlgYsk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NmndDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Many Lives of It",
+        "subtitle": "Essays on the Stephen King Horror Franchise",
+        "authors": [
+          "Ron Riekki"
+        ],
+        "publisher": "McFarland",
+        "publishedDate": "2020-04-09",
+        "description": "After its publication in 1986, Stephen King's novel It sparked sequels, remakes, parodies and solidified an entire genre: clown horror. Decades later, director Andy Muschietti revitalized King's popular novel, smashing all box office expectations with the release of his 2017 film It. At the time of its release, the movie set the record for the world's highest-grossing horror film. Examining the legacy of the controversial cult novel, the 2017 box office sensation and other incarnations of the demonic clown Pennywise, this collection of never-before-published essays covers the franchise from a variety of perspectives. Topics include examinations of the carnivalesque in both the novel and films, depictions of sexuality and theology in the book, and manifestations of patriarchy and the franchise, among other diverse subjects.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781476680187"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1476680183"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 210,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NmndDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NmndDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=NmndDwAAQBAJ&printsec=frontcover&dq=stephen+king+it&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=NmndDwAAQBAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Many_Lives_of_It.html?hl=&id=NmndDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NmndDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Examining the legacy of the controversial cult novel, the 2017 box office sensation and other incarnations of the demonic clown Pennywise, this collection of never-before-published essays covers the franchise from a variety of perspectives."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mk7JAQAACAAJ",
+      "etag": "MMH2Ukle+Lg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mk7JAQAACAAJ",
+      "volumeInfo": {
+        "title": "It. Movie Tie-In",
+        "authors": [
+          "Stephen King"
+        ],
+        "publisher": "Hodder Paperbacks",
+        "publishedDate": "2017-07-25",
+        "description": "Derry, Maine is just an ordinary town : familiar, well- ordered for the most part, a good place to live. It is a group of children who see - and feel - what makes Derry so horribly different. In the storm drains, in the sewers, IT lurks, taking on the shape of every nightmare, each one's deepest dread. Sometimes IT appears as an evil clown named Pennywise and sometimes IT reaches up, seizing, tearing, killing... Time passes and the children grow up, move away and forget. Until they are called back, once more to confront IT as IT stirs and coils in the sullen depths of their memories, emerging again to make their past nightmares a terrible present reality.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1473666937"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781473666931"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1379,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mk7JAQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mk7JAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=mk7JAQAACAAJ&dq=stephen+king+it&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=mk7JAQAACAAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/It_Movie_Tie_In.html?hl=&id=mk7JAQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mk7JAQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Derry, Maine is just an ordinary town : familiar, well- ordered for the most part, a good place to live."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2BcECkYB7uoC",
+      "etag": "llm6Pl0CBf8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2BcECkYB7uoC",
+      "volumeInfo": {
+        "title": "Stephen King from A to Z",
+        "subtitle": "An Encyclopedia of His Life and Work",
+        "authors": [
+          "George Beahm"
+        ],
+        "publisher": "Andrews McMeel Publishing",
+        "publishedDate": "1998-09",
+        "description": "Contains hundreds of alphabetically arranged entries that provide information about various aspects of the life and work of popular novelist Stephen King.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0836269144"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780836269147"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 251,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2BcECkYB7uoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2BcECkYB7uoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=2BcECkYB7uoC&pg=PA108&dq=stephen+king+it&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=2BcECkYB7uoC&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Stephen_King_from_A_to_Z.html?hl=&id=2BcECkYB7uoC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2BcECkYB7uoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "If (film), 1990 \u003cb\u003eIt&#39;s\u003c/b\u003e hard to imagine this as a feature-length film, because \u003cb\u003eit\u003c/b\u003e could not \u003cbr\u003e\nbe adequately compressed into a two hour time frame. For that reason, \u003cb\u003eit\u003c/b\u003e was a \u003cbr\u003e\ngood thing that a decision was made by \u003cb\u003eKing\u003c/b\u003e and ABC to run \u003cb\u003eit\u003c/b\u003e as a two-part&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zi85zAEACAAJ",
+      "etag": "LqVfgDFrH0A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zi85zAEACAAJ",
+      "volumeInfo": {
+        "title": "Pennywise Coloring Book",
+        "subtitle": "It, Horror, Itchapter, Stephen King, Clown, Halloween, it Movie, Bill Skarsgard, Art, Horror Movies, it Chapter Two, Pennywise the Dancing Clown, Pennywise the Clown, Losers Club, Richie Tozier, Makeup, Youll Float Too, Movie, Fu",
+        "authors": [
+          "Coloring Academy"
+        ],
+        "publishedDate": "2019-11-24",
+        "description": "Amazon best gift ideas for all season Usage: Activity Book For relaxation and patience Improve hand and eye coordination Promotes creativity and imagination For meditation Reduce stress and anxiety levels Expel negatives thoughts Hobby can be done anywhere Improve motor skills and vision Improve sleep and focus Exercising your mind Self-Expression Adult Coloring Book Children Coloring Book Coloring Pages Coloring Worksheet Quality coloring books for adult Hand And Eye Coordination Improve Handwriting Improves focus Improves knowledge Improves confidence Stimulates creativity Self-Expression Color Recognition Therapeutic it ,horror ,itchapter ,stephen king ,clown ,halloween ,it movie ,bill skarsgard ,art ,horror movies ,it chapter two ,pennywise the dancing clown ,pennywise the clown ,losers club ,richie tozier ,makeup ,youll float too ,movie ,funkopop ,stephen kings it ,funko ,beverlymarsh ,rd ,th ,cosplay ,drawing ,scary,horror movie ,love ,freddykrueger ,stranger things ,derry ,billdenbrough ,michael myers ,pennywise makeup ,benhanscom ,fridaythe ,horror fan ,horror film ,mikehanlon ,cinema, it cosplay ,it acoisa ,terror ,roleplay ,illustration ,clown makeup ,movies ,horror art ,creepy ,horrorgram ,memeit ,horror ,itchapter ,stephen king ,clown ,halloween ,it movie ,bill skarsgard ,art ,horror movies ,it chapter two ,pennywise the dancing clown ,pennywise the clown ,losers club ,richie tozier ,makeup ,youll float too ,movie ,funkopop ,stephen kings it ,funko ,beverlymarsh ,rd ,th ,cosplay ,drawing ,scary,horror movie ,love ,freddykrueger ,stranger things ,derry ,billdenbrough ,michael myers ,pennywise makeup ,benhanscom ,fridaythe ,horror fan ,horror film ,mikehanlon ,cinema, it cosplay ,it acoisa ,terror ,roleplay ,illustration ,clown makeup ,movies ,horror art ,creepy ,horrorgram ,meme",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1711238465"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781711238463"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 142,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zi85zAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zi85zAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=zi85zAEACAAJ&dq=stephen+king+it&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=zi85zAEACAAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Pennywise_Coloring_Book.html?hl=&id=zi85zAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zi85zAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Amazon best gift ideas for all season Usage: Activity Book For relaxation and patience Improve hand and eye coordination Promotes creativity and imagination For meditation Reduce stress and anxiety levels Expel negatives thoughts Hobby can ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "rJ9kzAEACAAJ",
+      "etag": "x8ER0JIM20g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/rJ9kzAEACAAJ",
+      "volumeInfo": {
+        "title": "A Worldview Review of Stephen King's It",
+        "subtitle": "The Mystical, Mysterious, and Metaphysical in the Novel, Miniseries, and Movies",
+        "authors": [
+          "Ken Ammi"
+        ],
+        "publishedDate": "2019-11-28",
+        "description": "Stephen King spawned a tale that is most well-known from a TV miniseries and two movies yet, the meat of which has never been elucidated via a book devoted to reviewing it--reviewing It.The mythos pertains to Robert Gray who is not really Robert Gray, Pennywise the dancing clown who is not really Pennywise the dancing clown, a light that is not really a light, an it that is It from beyond the beyond, beyond the microverse, from the macroverse whence It came--to feed.\"There's symbolism everywhere in the writing that Stephen King created\"--Dennis Christopher, Eddie in the 1990 miniseries#StephenKing #It #Pennywise #Movies #Horror #moviereviews #Gnostic #Gnosticism #Mysticism #Metaphysics #Novels",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1712901923"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781712901922"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 448,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=rJ9kzAEACAAJ&dq=stephen+king+it&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=rJ9kzAEACAAJ&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Worldview_Review_of_Stephen_King_s_It.html?hl=&id=rJ9kzAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=rJ9kzAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Stephen King spawned a tale that is most well-known from a TV miniseries and two movies yet, the meat of which has never been elucidated via a book devoted to reviewing it--reviewing It.The mythos pertains to Robert Gray who is not really ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9Df6rIugAaYC",
+      "etag": "40lVLu15v9k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9Df6rIugAaYC",
+      "volumeInfo": {
+        "title": "Graveyard",
+        "subtitle": "More Terrifying Than Stephen King - Because It's True!",
+        "authors": [
+          "Ed Warren",
+          "Lorrainne Warren"
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "1993-10-15",
+        "description": "The authors of The Haunted recount horrifying stories about a centuries-old Connecticut graveyard, including the tale of the murderer who put his victim's body in a sink hole and watched as the body rose up and revealed itself. Reprint.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0312951132"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780312951139"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9Df6rIugAaYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9Df6rIugAaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=9Df6rIugAaYC&dq=stephen+king+it&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=9Df6rIugAaYC&dq=stephen+king+it&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Graveyard.html?hl=&id=9Df6rIugAaYC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9Df6rIugAaYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The authors of The Haunted recount horrifying stories about a centuries-old Connecticut graveyard, including the tale of the murderer who put his victim&#39;s body in a sink hole and watched as the body rose up and revealed itself. Reprint."
+      }
+    }
+  ]
+}
