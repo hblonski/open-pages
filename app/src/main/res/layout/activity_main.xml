@@ -1,18 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <com.hb.pages.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleColor="@color/primaryPurple"
+        app:titleText="@string/label_search_books" />
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/search_book_activity_input_margin"
+        android:layout_marginTop="@dimen/search_book_activity_input_margin"
+        android:layout_marginEnd="@dimen/search_book_activity_input_margin"
+        android:drawableStart="@drawable/ic_search_black_small"
+        android:drawablePadding="@dimen/search_input_icon_padding"
+        android:fontFamily="@font/nunito_regular"
+        android:hint="@string/label_search_by_keyword_or_isbn"
+        android:imeOptions="actionSearch"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:theme="@style/PurpleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/search_book_activity_rv_margin"
+        android:layout_marginEnd="@dimen/search_book_activity_rv_margin"
+        android:layout_marginBottom="@dimen/search_book_activity_rv_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputSearch" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimation"
+        android:layout_width="@dimen/search_book_activity_loading_size"
+        android:layout_height="@dimen/search_book_activity_loading_size"
+        android:layout_marginBottom="@dimen/search_book_activity_loading_margin_bottom"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageNotFound"
+        android:layout_width="@dimen/search_book_activity_image_not_found_size"
+        android:layout_height="@dimen/search_book_activity_image_not_found_size"
+        android:layout_marginStart="@dimen/search_book_activity_image_not_found_margin_start"
+        android:layout_marginBottom="@dimen/search_book_activity_image_not_found_margin_bottom"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_confused"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/textNotFound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/noConnectionIcon"
+        android:layout_width="@dimen/search_book_activity_image_connection_error_size"
+        android:layout_height="@dimen/search_book_activity_image_connection_error_size"
+        android:layout_marginBottom="@dimen/search_book_activity_image_connection_error_margin"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_offline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textNoConnection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/label_google_books_connection_failed"
+        android:textAlignment="center"
+        android:textColor="@color/primaryPurple"
+        android:textSize="@dimen/search_book_activity_info_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputSearch" />
+
+    <TextView
+        android:id="@+id/textNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_book_activity_info_text_margin_top"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/label_search_results_not_found"
+        android:textAlignment="center"
+        android:textColor="@color/primaryPurple"
+        android:textSize="@dimen/search_book_activity_info_text_size"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputSearch" />
+
+    <ImageView
+        android:id="@+id/imageFirstSearch"
+        android:layout_width="@dimen/search_book_activity_image_first_search_size"
+        android:layout_height="@dimen/search_book_activity_image_first_search_size"
+        android:layout_marginBottom="@dimen/search_book_activity_image_first_search_margin_bottom"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_loupe"
+        app:layout_constraintBottom_toTopOf="@id/textFirstSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textFirstSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/label_first_search"
+        android:textAlignment="center"
+        android:textColor="@color/primaryPurple"
+        android:textSize="@dimen/search_book_activity_info_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputSearch" />
+
+    <ImageView
+        android:id="@+id/poweredByGoogle"
+        android:layout_width="@dimen/search_book_activity_powered_by_google_width"
+        android:layout_height="@dimen/search_book_activity_powered_by_google_height"
+        android:layout_marginBottom="@dimen/search_book_activity_powered_by_google_margin_bottom"
+        android:background="@drawable/rectangle_rounded_corners_white"
+        android:contentDescription="@string/label_powered_by_google"
+        android:padding="@dimen/search_book_activity_powered_by_google_padding"
+        android:src="@drawable/ic_powered_by_google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

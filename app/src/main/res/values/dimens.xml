@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Navigation bar  -->
+    <dimen name="navigation_bar_border_height">1dp</dimen>
+    <dimen name="navigation_bar_padding_bottom">5dp</dimen>
+    <dimen name="navigation_bar_border_margin_bottom">5dp</dimen>
+    <dimen name="navigation_bar_icon_height">30dp</dimen>
+    <dimen name="navigation_bar_icon_padding">5dp</dimen>
+
+    <!--  Expandable FAB  -->
+    <dimen name="expandable_floating_action_button_border_width">2dp</dimen>
+    <dimen name="expandable_floating_action_button_padding">15dp</dimen>
+    <dimen name="expandable_fab_top_button_margin">40dp</dimen>
+    <dimen name="expandable_fab_top_right_button_margin">20dp</dimen>
+    <dimen name="expandable_fab_right_button_margin">40dp</dimen>
+    <dimen name="expandable_fab_hint_padding">5dp</dimen>
+    <dimen name="expandable_fab_hint_text_size">16sp</dimen>
+    <dimen name="expandable_fab_top_hint_margin_bottom">30dp</dimen>
+    <dimen name="expandable_fab_top_hint_margin_start">39dp</dimen>
+
+    <!--  Book info  -->
+    <dimen name="book_info_cover_height">165dp</dimen>
+    <dimen name="book_info_cover_width">110dp</dimen>
+    <dimen name="book_info_cover_margin_start">10dp</dimen>
+    <dimen name="book_info_cover_margin_bottom">2dp</dimen>
+    <dimen name="book_info_cover_margin_top">15dp</dimen>
+    <dimen name="book_info_cover_elevation">10dp</dimen>
+    <dimen name="book_info_cover_radius">10dp</dimen>
+    <dimen name="book_info_title_max_height">130dp</dimen>
+    <dimen name="book_info_title_margin_start">25dp</dimen>
+    <dimen name="book_info_title_margin_top">10dp</dimen>
+    <dimen name="book_info_text_auto_size_min">12sp</dimen>
+    <dimen name="book_info_text_auto_size_granularity">2sp</dimen>
+    <dimen name="book_info_header_max_width">210dp</dimen>
+    <dimen name="book_info_title_size">25sp</dimen>
+    <dimen name="book_info_authors_max_height">50dp</dimen>
+    <dimen name="book_info_authors_margin_top">10dp</dimen>
+    <dimen name="book_info_authors_text_size">18sp</dimen>
+    <dimen name="book_info_content_margin_horizontal">10dp</dimen>
+    <dimen name="book_info_separator_margin_top">15dp</dimen>
+    <dimen name="book_info_separator_margin_end">10dp</dimen>
+    <dimen name="book_info_subtitle_text_size">16sp</dimen>
+    <dimen name="book_info_content_text_margin_top">15dp</dimen>
+    <dimen name="book_info_content_margin_bottom">5dp</dimen>
+    <dimen name="book_info_content_margin_top">5dp</dimen>
+    <dimen name="book_info_button_width">170dp</dimen>
+    <dimen name="book_info_button_height">50dp</dimen>
+    <dimen name="book_info_button_text_size">20sp</dimen>
+    <dimen name="book_info_save_button_margin_top">15dp</dimen>
+    <dimen name="book_info_save_button_margin_bottom">15dp</dimen>
+    <dimen name="book_info_button_padding">20dp</dimen>
+
+    <!--  Expandable TextView  -->
+    <dimen name="expandable_text_view_show_more_label_size">15sp</dimen>
+    <dimen name="expandable_text_view_show_more_button_padding">10dp</dimen>
+
+    <!--  Custom dialog  -->
+    <dimen name="custom_dialog_margin">15dp</dimen>
+    <dimen name="custom_dialog_title_size">23sp</dimen>
+    <dimen name="custom_dialog_component_margin_small">10dp</dimen>
+    <dimen name="custom_dialog_component_margin_big">20dp</dimen>
+    <dimen name="custom_dialog_subtitle_size">15sp</dimen>
+    <dimen name="custom_dialog_buttom_width">250dp</dimen>
+    <dimen name="custom_dialog_corner_radius">15dp</dimen>
+
+    <!--  Edit book activity  -->
+    <dimen name="edit_book_activity_input_margin">10dp</dimen>
+    <dimen name="edit_book_activity_input_margin_extra">12dp</dimen>
+    <dimen name="edit_book_activity_spinner_margin">5dp</dimen>
+    <dimen name="edit_book_activity_button_margin_top">10dp</dimen>
+    <dimen name="edit_book_activity_icon_size">90dp</dimen>
+    <dimen name="edit_book_activity_remove_cover_button_size">23dp</dimen>
+    <dimen name="edit_book_activity_icon_margin_top">10dp</dimen>
+    <dimen name="edit_book_activity_add_cover_drawable_padding">2dp</dimen>
+    <dimen name="edit_book_activity_add_cover_padding_start">10dp</dimen>
+    <dimen name="edit_book_activity_add_cover_padding_top">4dp</dimen>
+    <dimen name="edit_book_activity_add_cover_padding_end">5dp</dimen>
+    <dimen name="edit_book_activity_add_cover_padding_bottom">3dp</dimen>
+    <dimen name="edit_book_activity_cover_height">135dp</dimen>
+    <dimen name="edit_book_activity_cover_width">95dp</dimen>
+    <dimen name="edit_book_activity_cover_label_margin_bottom">2dp</dimen>
+    <dimen name="edit_book_activity_remove_cover_button_margin_start">5dp</dimen>
+    <dimen name="edit_book_activity_save_button_margin">10dp</dimen>
+    <dimen name="edit_book_activity_authors_title_margin">10dp</dimen>
+    <dimen name="edit_book_activity_simple_label_margin_start">15dp</dimen>
+    <dimen name="edit_book_activity_cover_label_margin_start">14dp</dimen>
+    <dimen name="edit_book_activity_label_description_margin_start">30dp</dimen>
+
+    <!--  Scan barcode activity  -->
+    <dimen name="scan_barcode_activity_animation_size">80dp</dimen>
+    <dimen name="scan_barcode_activity_animation_margin_bottom">50dp</dimen>
+
+    <!--  Search book activity  -->
+    <dimen name="search_book_activity_title_margin_start">20dp</dimen>
+    <dimen name="search_book_activity_input_margin">10dp</dimen>
+    <dimen name="search_input_icon_padding">5dp</dimen>
+    <dimen name="search_book_activity_rv_margin">10dp</dimen>
+    <dimen name="search_book_activity_loading_size">80dp</dimen>
+    <dimen name="search_book_activity_loading_margin_bottom">50dp</dimen>
+    <dimen name="search_book_activity_image_not_found_size">150dp</dimen>
+    <dimen name="search_book_activity_image_not_found_margin_bottom">15dp</dimen>
+    <dimen name="search_book_activity_image_not_found_margin_start">20dp</dimen>
+    <dimen name="search_book_activity_info_text_size">18sp</dimen>
+    <dimen name="search_book_activity_image_first_search_size">110dp</dimen>
+    <dimen name="search_book_activity_image_first_search_margin_bottom">15dp</dimen>
+    <dimen name="search_book_activity_center_item_margin_top">120dp</dimen>
+    <dimen name="search_book_activity_info_text_margin_top">40dp</dimen>
+    <dimen name="search_book_activity_book_margin_top">15dp</dimen>
+    <dimen name="search_book_activity_powered_by_google_width">100dp</dimen>
+    <dimen name="search_book_activity_powered_by_google_height">20dp</dimen>
+    <dimen name="search_book_activity_powered_by_google_margin_bottom">3dp</dimen>
+    <dimen name="search_book_activity_powered_by_google_padding">3dp</dimen>
+    <dimen name="search_book_activity_image_connection_error_size">120dp</dimen>
+    <dimen name="search_book_activity_image_connection_error_margin">140dp</dimen>
+
+    <!--  Add bookshelf activity  -->
+    <dimen name="activity_add_bookshelf_image_size">125dp</dimen>
+    <dimen name="activity_add_bookshelf_image_margin_top">100dp</dimen>
+    <dimen name="activity_add_bookshelf_label_choose_text_size">20sp</dimen>
+    <dimen name="activity_add_bookshelf_input_margin_horizontal">40dp</dimen>
+    <dimen name="activity_add_bookshelf_input_margin_top">15dp</dimen>
+    <dimen name="activity_add_bookshelf_input_text_size">20sp</dimen>
+    <dimen name="activity_add_bookshelf_button_width">150dp</dimen>
+    <dimen name="activity_add_bookshelf_button_height">45dp</dimen>
+    <dimen name="activity_add_bookshelf_button_margin_vertical">10dp</dimen>
+
+    <!--  Add to bookshelf activity  -->
+    <dimen name="add_to_bookshelf_activity_scroll_view_margin_vertical">10dp</dimen>
+    <dimen name="add_to_bookshelf_activity_scroll_view_margin_horizontal">20dp</dimen>
+    <dimen name="add_to_bookshelf_activity_new_button_width">100dp</dimen>
+    <dimen name="add_to_bookshelf_activity_new_button_height">40dp</dimen>
+    <dimen name="add_to_bookshelf_activity_new_button_margin">20dp</dimen>
+    <dimen name="add_to_bookshelf_activity_new_button_padding_start">15dp</dimen>
+    <dimen name="add_to_bookshelf_activity_new_button_text_size">18sp</dimen>
+    <dimen name="add_to_bookshelf_activity_scroll_height">500dp</dimen>
+
+    <!--  Header  -->
+    <dimen name="back_button_size">30dp</dimen>
+    <dimen name="back_button_margin">10dp</dimen>
+    <dimen name="header_title_margin_start">20dp</dimen>
+    <dimen name="header_title_text_size">20sp</dimen>
+    <dimen name="right_button_size">26dp</dimen>
+    <dimen name="middle_button_size">26dp</dimen>
+    <dimen name="right_button_padding">3dp</dimen>
+    <dimen name="right_button_margin">15dp</dimen>
+    <dimen name="left_button_margin_right">15dp</dimen>
+    <dimen name="left_button_margin_top">17dp</dimen>
+
+    <!--  Book view holder  -->
+    <dimen name="book_view_holder_cover_height">135dp</dimen>
+    <dimen name="book_view_holder_cover_width">90dp</dimen>
+    <dimen name="book_view_holder_cover_margin_horizontal">10dp</dimen>
+    <dimen name="book_view_holder_title_text_size">14sp</dimen>
+    <dimen name="book_view_holder_title_margin_top">3dp</dimen>
+    <dimen name="book_view_holder_title_margin_horizontal">17dp</dimen>
+
+    <!--  Bookshelf view holder  -->
+    <dimen name="bookshelf_view_holder_title_size">20sp</dimen>
+    <dimen name="bookshelf_view_holder_view_more_size">25dp</dimen>
+    <dimen name="bookshelf_view_holder_book_margin_top">5dp</dimen>
+    <dimen name="bookshelf_view_holder_no_books_margin_start">10dp</dimen>
+    <dimen name="bookshelf_view_holder_no_books_margin_top">3dp</dimen>
+    <dimen name="bookshelf_view_holder_no_books_text_size">16sp</dimen>
+
+    <!--  Books fragment  -->
+    <dimen name="books_fragment_rv_margin">10dp</dimen>
+    <dimen name="books_fragment_add_button_size">150dp</dimen>
+    <dimen name="books_fragment_add_button_padding">15dp</dimen>
+    <dimen name="search_input_margin">10dp</dimen>
+    <dimen name="books_fragment_filters_button_margin_end">10dp</dimen>
+    <dimen name="books_fragment_filters_button_margin_bottom">8dp</dimen>
+    <dimen name="books_fragment_filters_badge_margin_start">17dp</dimen>
+    <dimen name="books_fragment_filters_badge_margin_bottom">14dp</dimen>
+    <dimen name="books_fragment_filters_badge_margin_end">10dp</dimen>
+    <dimen name="books_fragment_bookshelf_margin_top">14dp</dimen>
+    <dimen name="books_fragment_reset_search_margin_end">10dp</dimen>
+    <dimen name="books_fragment_no_books_text_margin_top">50dp</dimen>
+    <dimen name="books_fragment_no_books_text_margin_horizontal">10dp</dimen>
+    <dimen name="books_fragment_no_books_text_size">20sp</dimen>
+    <dimen name="books_fragment_no_books_image_margin_start">5dp</dimen>
+    <dimen name="books_fragment_no_books_image_size">100dp</dimen>
+
+    <!--  Bookshelf radio button  -->
+    <dimen name="bookshelf_rb_txt_size">18sp</dimen>
+    <dimen name="bookshelf_rb_margin_horizontal">0dp</dimen>
+    <dimen name="bookshelf_rb_margin_vertical">10dp</dimen>
+    <dimen name="bookshelf_rb_padding">10dp</dimen>
+
+    <!--  Search filters fragment  -->
+    <dimen name="fragment_filters_margin">10dp</dimen>
+    <dimen name="fragment_filters_item_margin">10dp</dimen>
+    <dimen name="fragment_filters_label_size">16sp</dimen>
+    <dimen name="fragment_filters_reset_button_width">70dp</dimen>
+    <dimen name="fragment_filters_reset_button_height">25dp</dimen>
+    <dimen name="fragment_filters_reset_button_text_size">14sp</dimen>
+    <dimen name="fragment_filters_apply_button_width">150dp</dimen>
+    <dimen name="fragment_filters_apply_button_height">45dp</dimen>
+    <dimen name="fragment_filters_apply_button_margin_top">20dp</dimen>
+    <dimen name="fragment_filters_apply_button_margin_bottom">20dp</dimen>
+    <dimen name="fragment_filters_radio_margin_vertical">30dp</dimen>
+
+    <!--  Book details activity  -->
+    <dimen name="book_details_activity_tabs_margin_top">5dp</dimen>
+
+    <!--  Book notes fragment  -->
+    <dimen name="book_notes_fragment_layout_margin">10dp</dimen>
+    <dimen name="book_notes_fragment_label_size">16sp</dimen>
+    <dimen name="book_notes_fragment_slider_margin">20dp</dimen>
+    <dimen name="book_notes_fragment_pages_read_width">50dp</dimen>
+    <dimen name="book_notes_fragment_pages_read_margin_bottom">20dp</dimen>
+    <dimen name="book_notes_fragment_pages_read_text_size">13sp</dimen>
+    <dimen name="book_notes_fragment_pages_read_total_margin_bottom">12dp</dimen>
+    <dimen name="book_notes_fragment_started_reading_on_margin_top">10dp</dimen>
+    <dimen name="book_notes_fragment_reading_on_value_margin_top">5dp</dimen>
+    <dimen name="book_notes_fragment_finished_reading_on_margin_top">10dp</dimen>
+    <dimen name="book_notes_fragment_rating_label_margin_top">20dp</dimen>
+    <dimen name="book_notes_fragment_rating_bar_height">36dp</dimen>
+    <dimen name="book_notes_fragment_rating_bar_margin_top">5dp</dimen>
+    <dimen name="book_notes_fragment_lent_borrowed_label_text_size">16sp</dimen>
+    <dimen name="book_notes_fragment_on_to_label_margin_top">5dp</dimen>
+    <dimen name="book_notes_fragment_on_margin_start">5dp</dimen>
+    <dimen name="book_notes_fragment_on_to_margin_top">3dp</dimen>
+    <dimen name="book_notes_fragment_to_margin_end">5dp</dimen>
+    <dimen name="book_notes_fragment_comment_label_margin_top">20dp</dimen>
+    <dimen name="book_notes_fragment_comment_margin_top">5dp</dimen>
+    <dimen name="book_notes_fragment_comment_margin_bottom">10dp</dimen>
+    <dimen name="book_notes_fragment_comment_padding">10dp</dimen>
+    <dimen name="book_notes_fragment_save_button_width">150dp</dimen>
+    <dimen name="book_notes_fragment_save_button_margin">10dp</dimen>
+    <dimen name="book_notes_lease_label_margin_top">30dp</dimen>
+
+    <!--  Settings fragment  -->
+    <dimen name="settings_fragment_logo_size">80dp</dimen>
+    <dimen name="settings_fragment_logo_margin">40dp</dimen>
+    <dimen name="settings_fragment_app_name_size">20sp</dimen>
+    <dimen name="settings_fragment_app_version_size">12sp</dimen>
+    <dimen name="settings_fragment_item_margin_start">10dp</dimen>
+    <dimen name="settings_fragment_first_item_margin_top">45dp</dimen>
+    <dimen name="settings_fragment_item_margin_top">15dp</dimen>
+    <dimen name="settings_fragment_item_text_margin_start">5dp</dimen>
+    <dimen name="settings_fragment_item_text_size">16sp</dimen>
+    <dimen name="settings_fragment_item_separator_height">1dp</dimen>
+    <dimen name="settings_fragment_item_separator_margin_top">15dp</dimen>
+    <dimen name="settings_fragment_item_arrow_size">25dp</dimen>
+    <dimen name="settings_fragment_item_arrow_margin_end">5dp</dimen>
+
+    <!--  Backup/Restore Activity  -->
+    <dimen name="activity_backup_restore_icon_size">120dp</dimen>
+    <dimen name="activity_backup_restore_icon_margin_top">60dp</dimen>
+    <dimen name="activity_backup_restore_button_width">150dp</dimen>
+    <dimen name="activity_backup_restore_button_margin_top">50dp</dimen>
+    <dimen name="activity_backup_restore_hint_margin_top">5dp</dimen>
+    <dimen name="activity_backup_restore_hint_size">16sp</dimen>
+    <dimen name="activity_backup_restore_last_backup_label_size">13sp</dimen>
+
+    <!--  About Activity  -->
+    <dimen name="activity_about_title_margin_top">10dp</dimen>
+    <dimen name="activity_about_last_item_margin_bottom">10dp</dimen>
+    <dimen name="activity_about_item_margin_horizontal">10dp</dimen>
+    <dimen name="activity_about_title_margin_bottom">3dp</dimen>
+    <dimen name="activity_about_title_size">19sp</dimen>
+    <dimen name="activity_about_content_size">14sp</dimen>
+
+    <!--  Share Activity  -->
+    <dimen name="activity_share_icon_size">105dp</dimen>
+    <dimen name="activity_share_icon_margin_top">60dp</dimen>
+    <dimen name="activity_share_share_button_width">110dp</dimen>
+    <dimen name="activity_share_share_button_margin_top">50dp</dimen>
+    <dimen name="activity_share_button_text_size">18sp</dimen>
+    <dimen name="activity_share_rate_button_margin_top">20dp</dimen>
+    <dimen name="activity_share_rate_button_width">110dp</dimen>
+    <dimen name="activity_share_label_thanks_size">15sp</dimen>
+    <dimen name="activity_share_label_thanks_margin_top">10dp</dimen>
+    <dimen name="activity_share_label_thank_you_size">26sp</dimen>
+    <dimen name="activity_share_label_thank_you_margin_top">20dp</dimen>
+
+    <!--  Contact Us Activity  -->
+    <dimen name="activity_contact_us_icon_size">105dp</dimen>
+    <dimen name="activity_contact_us_icon_margin_top">60dp</dimen>
+    <dimen name="activity_contact_us_button_width">150dp</dimen>
+    <dimen name="activity_contact_us_subreddit_button_width">170dp</dimen>
+    <dimen name="activity_contact_us_button_margin_top">50dp</dimen>
+    <dimen name="activity_contact_us_subreddit_button_margin_top">20dp</dimen>
+    <dimen name="activity_contact_us_description_text_size">18sp</dimen>
+    <dimen name="activity_contact_us_description_margin_top">20dp</dimen>
+
+    <!--  Text picker dialog  -->
+    <dimen name="text_picker_dialog_min_width">350dp</dimen>
+    <dimen name="text_picker_dialog_title_margin">10dp</dimen>
+    <dimen name="text_picker_dialog_title_size">23sp</dimen>
+    <dimen name="text_picker_dialog_wheel_width">150dp</dimen>
+    <dimen name="text_picker_dialog_wheel_margin_top">5dp</dimen>
+    <dimen name="text_picker_dialog_button_width">130dp</dimen>
+    <dimen name="text_picker_dialog_button_margin_bottom">15dp</dimen>
+
+    <!--  Statistics fragment  -->
+    <dimen name="statistics_fragment_mode_margin_start">25dp</dimen>
+    <dimen name="statistics_fragment_mode_margin_end">10dp</dimen>
+    <dimen name="statistics_fragment_config_size">20sp</dimen>
+    <dimen name="statistics_fragment_icon_size">65dp</dimen>
+    <dimen name="statistics_fragment_icon_margin_top">20dp</dimen>
+    <dimen name="statistics_fragment_period_margin_start">8dp</dimen>
+    <dimen name="statistics_fragment_period_min_text_size">14sp</dimen>
+    <dimen name="statistics_fragment_separator_height">1dp</dimen>
+    <dimen name="statistics_fragment_separator_margin">10dp</dimen>
+    <dimen name="statistics_fragment_scroll_margin_top">10dp</dimen>
+
+    <!--  Pie chart  -->
+    <dimen name="pie_chart_legend_size">14sp</dimen>
+    <dimen name="pie_chart_legend_icon_padding">4dp</dimen>
+    <dimen name="chart_height">200dp</dimen>
+    <dimen name="pie_chart_title_size">18sp</dimen>
+    <dimen name="pie_chart_title_margin_top">5dp</dimen>
+    <dimen name="pie_chart_margin_top">10dp</dimen>
+    <dimen name="pie_chart_separator_height">1dp</dimen>
+    <dimen name="pie_chart_separator_margin_top">10dp</dimen>
+    <dimen name="pie_chart_separator_horizontal_margin">80dp</dimen>
+    <dimen name="pie_chart_legends_margin_horizontal">20dp</dimen>
+    <dimen name="pie_chart_legends_margin_vertical">10dp</dimen>
+    <dimen name="pie_chart_no_data_text_size">16dp</dimen>
+
+    <!--  Statistics card  -->
+    <dimen name="statistics_card_corner_radius">15dp</dimen>
+    <dimen name="statistics_card_elevation">10dp</dimen>
+    <dimen name="statistics_card_margin">10dp</dimen>
+
+    <!--  Wishlist fragment  -->
+    <dimen name="wishlist_fragment_empty_icon_size">110dp</dimen>
+    <dimen name="wishlist_fragment_empty_icon_margin_top">80dp</dimen>
+    <dimen name="wishlist_fragment_empty_label_margin_horizontal">10dp</dimen>
+    <dimen name="wishlist_fragment_empty_label_margin_top">30dp</dimen>
+    <dimen name="wishlist_fragment_recyclerview_margin_top">5dp</dimen>
+    <dimen name="wishlist_fragment_clear_search_margin_end">10dp</dimen>
+    <dimen name="wishlist_fragment_text_size">20sp</dimen>
+    <dimen name="wishlist_fragment_add_button_size">150dp</dimen>
+    <dimen name="wishlist_fragment_add_button_padding">15dp</dimen>
+
+    <!--  Wishlist item activity  -->
+    <dimen name="wishlist_item_activity_separator_height">1dp</dimen>
+    <dimen name="wishlist_item_activity_separator_margin">10dp</dimen>
+    <dimen name="wishlist_item_activity_shopping_list_margin">10dp</dimen>
+    <dimen name="wishlist_item_activity_button_width">170dp</dimen>
+    <dimen name="wishlist_item_activity_button_height">50dp</dimen>
+    <dimen name="wishlist_item_activity_button_margin">15dp</dimen>
+
+    <!--  Shopping list  -->
+    <dimen name="shopping_list_item_width">150dp</dimen>
+    <dimen name="shopping_list_item_height">70dp</dimen>
+    <dimen name="shopping_list_title_margin">5dp</dimen>
+    <dimen name="shopping_list_title_size">18sp</dimen>
+    <dimen name="shopping_list_rv_margin">10dp</dimen>
+    <dimen name="shopping_list_separator_height">1dp</dimen>
+    <dimen name="shopping_list_separator_margin">10dp</dimen>
+
+    <!--  Loading dialog  -->
+    <dimen name="loading_dialog_elevation">10dp</dimen>
+    <dimen name="loading_dialog_corner_radius">50dp</dimen>
+    <dimen name="loading_dialog_animation_size">80dp</dimen>
+    <dimen name="splash_screen_logo_size">100dp</dimen>
+    <dimen name="activity_about_margin_bottom">10dp</dimen>
+
+    <!--  Default button  -->
+    <dimen name="default_button_min_width">150dp</dimen>
+    <dimen name="default_button_text_size">20sp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/viewHolderCover"
+        android:layout_height="@dimen/book_view_holder_cover_height"
+        android:layout_width="@dimen/book_view_holder_cover_width"
+        android:layout_marginStart="@dimen/book_view_holder_cover_margin_horizontal"
+        android:layout_marginEnd="@dimen/book_view_holder_cover_margin_horizontal"
+        android:elevation="@dimen/book_info_cover_elevation"
+        app:cardCornerRadius="@dimen/book_info_cover_radius"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backButton">
+
+        <ImageView
+            android:id="@+id/viewHolderCoverImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/description_book_cover"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            tools:background="@color/primaryGreen"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/viewHolderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        tools:text="My Book"
+        android:fontFamily="@font/nunito_regular"
+        android:textSize="@dimen/book_view_holder_title_text_size"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/book_view_holder_title_margin_top"
+        android:layout_marginStart="@dimen/book_view_holder_title_margin_horizontal"
+        android:layout_marginEnd="@dimen/book_view_holder_title_margin_horizontal"/>
+
+</LinearLayout>

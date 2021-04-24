@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="book_info_header_max_width">150dp</dimen>
+    <dimen name="book_info_cover_height">105dp</dimen>
+    <dimen name="book_info_cover_width">70dp</dimen>
+    <dimen name="book_info_authors_margin_top">5dp</dimen>
+    <dimen name="book_info_title_size">18sp</dimen>
+    <dimen name="book_info_authors_text_size">15sp</dimen>
+    <dimen name="book_info_title_margin_top">5dp</dimen>
+    <dimen name="book_view_holder_cover_height">105dp</dimen>
+    <dimen name="book_view_holder_cover_width">70dp</dimen>
+</resources>

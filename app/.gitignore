@@ -1,1 +1,6 @@
 /build
+# Google Services data. Ignoring since this code is in a public repository
+*.json
+
+# Private keys and passwords. Ignoring since this code is in a public repository
+keys.properties

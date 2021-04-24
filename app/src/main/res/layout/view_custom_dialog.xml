@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    app:cardCornerRadius="@dimen/custom_dialog_corner_radius">
+
+    <LinearLayout
+        android:id="@+id/popupDialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/custom_dialog_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dialog_component_margin_small"
+            android:layout_marginBottom="@dimen/custom_dialog_component_margin_small"
+            android:fontFamily="@font/nunito_bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/custom_dialog_title_size"
+            tools:text="Invalid ISBN" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dialog_component_margin_big"
+            android:fontFamily="@font/nunito_regular"
+            android:textAlignment="center"
+            android:textSize="@dimen/custom_dialog_subtitle_size"
+            tools:text="Scanned ISBN 1234567890123 is not valid." />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/topButton"
+            android:layout_width="@dimen/custom_dialog_buttom_width"
+            android:layout_height="wrap_content"
+            style="@style/PurpleButton"
+            tools:text="Try Again" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bottomButton"
+            android:layout_width="@dimen/custom_dialog_buttom_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dialog_component_margin_big"
+            android:layout_marginBottom="@dimen/custom_dialog_component_margin_small"
+            style="@style/PurpleButton"
+            tools:text="Close" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

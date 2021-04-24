@@ -1,2 +1,2 @@
+rootProject.name='Pages'
 include ':app'
-rootProject.name = "Open Pages"

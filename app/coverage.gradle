@@ -1,0 +1,33 @@
+def includes = [
+        'api/mapper/GoogleBooksVolumeMapper.*',
+        'db/repositories/*.*',
+        'db/mappers/*.*',
+        'features/books/BooksViewModel.*',
+        'features/books/BaseBooksViewModel.*',
+        'features/bookshelf/AddBookshelfViewModel.*',
+        'features/bookshelf/AddToBookshelfViewModel.*',
+        'features/details/BookDetailsViewModel.*',
+        'features/edit/EditBookViewModel.*',
+        'features/info/BookInfoViewModel.*',
+        'features/scan/ScanBarCodeViewModel.*',
+        'features/search/SearchBookViewModel.*',
+        'features/settings/SettingsViewModel.*',
+        'features/settings/about/AboutViewModel.*',
+        'features/settings/backup/BackupRestoreViewModel.*',
+        'features/settings/contact/ContactUsViewModel.*',
+        'features/settings/share/ShareViewModel.*',
+        'features/summary/BookSummaryViewModel.*',
+        'features/summary/BaseBookSummaryViewModel.*',
+        'features/statistics/StatisticsViewModel.*',
+        'features/statistics/modes/*.*',
+        'features/wishlist/WishlistViewModel.kt',
+        'features/wishlist/WishlistItemViewModel.kt',
+        'usecases/author/*.*',
+        'usecases/book/*.*',
+        'usecases/bookshelf/*.*',
+        'usecases/category/*.*',
+        'usecases/event/*.*',
+        'usecases/backup/*.*'
+]
+
+ext.includes = includes

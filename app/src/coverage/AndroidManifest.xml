@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hb.pages">
+
+    <application tools:ignore="MissingApplicationIcon, AllowBackup"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".util.FragmentHostActivity"
+            android:theme="@style/FullscreenTheme" />
+    </application>
+</manifest>

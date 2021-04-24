@@ -1,0 +1,63 @@
+<resources>
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableFloatingActionButton">
+        <attr name="mainButtonIcon" format="reference" />
+        <attr name="topButtonIcon" format="reference" />
+        <attr name="rightButtonIcon" format="reference" />
+        <attr name="topRightButtonIcon" format="reference" />
+
+        <attr name="mainButtonColor" format="color" />
+        <attr name="topButtonColor" format="color" />
+        <attr name="rightButtonColor" format="color" />
+        <attr name="topRightButtonColor" format="color" />
+
+        <attr name="topButtonHint" format="string" />
+        <attr name="rightButtonHint" format="string" />
+        <attr name="topRightButtonHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialTextInputView">
+        <attr name="label" format="string" />
+        <attr name="hintColor" format="color" />
+        <attr name="activeHintColor" format="color" />
+        <attr name="required" format="boolean" />
+        <attr name="input" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="errorText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderView">
+        <attr name="titleColor" format="color" />
+        <attr name="titleText" format="string" />
+        <attr name="rightButtonDrawable" format="reference" />
+        <attr name="middleButtonDrawable" format="reference" />
+        <attr name="leftButtonDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PagesPieChartView">
+        <attr name="pieChartTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PagesBarChartView">
+        <attr name="barChartTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="MultipleTextInputView">
+        <attr name="inputDescription" format="string" />
+        <attr name="inputHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedButton">
+        <attr name="buttonText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingView">
+        <attr name="settingTitle" format="string" />
+        <attr name="settingValue" format="string" />
+    </declare-styleable>
+</resources>
