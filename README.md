@@ -4,9 +4,7 @@
 
 <p align="center"><img src="https://ch3302files.storage.live.com/y4mZNn-dm_YMpaSHAUL_2UJPmYSdI09ZNYYrtfVr2H3cgOCkoa1eglvIjQDCcAGltMs9mxi6BfMl05iBR3Ali2y8tOKu-LHg4QzYdZA7a3VMF7_IYb3wh2TzZffIp9xOZ-fLn09mBuJ0lv_evoQfTZBmvQMkIIP5m-HDiltTsFxxHoU27qBMl6jjBhThaxOhCrU?width=120&height=120&cropmode=none" /></p>
 
-Open Pages is an open source sample application with code directly extracted from Pages.
-
-[Pages](https://play.google.com/store/apps/details?id=com.hb.pages) is an Android application developed to allow users to manage their book collections. It provides an organized way to store the books, by letting users divide them into custom bookshelves.  
+Open Pages is an open source sample application with code directly extracted from [Pages](https://play.google.com/store/apps/details?id=com.hb.pages), an Android application developed to allow users to manage their book collections. It provides an organized way to store the books, by letting users divide them into custom bookshelves.  
 Books can be added by online searching, scanning its barcode, or even by typing the details manually. The first two ways are powered by the [Google Books Api](https://developers.google.com/books), which ensures a huge information database is always available. Users can also add books to a wishlist, in case they don't own it yet.  
 Once a book is saved, several details can be attached to it, such as the number of pages the user has read, if it is lent/borrowed, the dates in which the user has started/finished reading it, among others. Pages also helps the user keep track of these informations, by providing useful reminders, charts and statistics.
 
